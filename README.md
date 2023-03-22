@@ -1,9 +1,9 @@
 ### Description:
 Code to generate human protein coding gene pairs (hgnc-hgnc identifiers) with information on lethality available for the corresponding one2one mouse knockout orthologues. Four different files are generated with the main script (*mouse_viability.R*):
-- viability_impc_mgi: single gene file with viability annotations from the IMPC ((https://www.mousephenotype.org/) and MGI (https://www.informatics.jax.org/)resources (lethal, subviable, viable)
-- impc_pairs_lethality: gene-gene pairs with the information on viability for each gene according to IMPC data (lethal, nonlethal)
-- mgi_pairs_lethality: gene-gene pairs with the information on viability for each gene according to MGI data (lethal, nonlethal)
-- all_pairs_lethality: gene-gene pairs with the information on viability combined from the IMPC and MGI resources (lethal, nonlethal)
+- *viability_impc_mgi.txt*: single gene file with viability annotations from the IMPC ((https://www.mousephenotype.org/) and MGI (https://www.informatics.jax.org/)resources (lethal, subviable, viable)
+- *impc_pairs_lethality.txt*: gene-gene pairs with the information on viability for each gene according to IMPC data (lethal, nonlethal)
+- *mgi_pairs_lethality.txt*: gene-gene pairs with the information on viability for each gene according to MGI data (lethal, nonlethal)
+- *all_pairs_lethality.txt*: gene-gene pairs with the information on viability combined from the IMPC and MGI resources (lethal, nonlethal)
 
 
 ### Data sources:
